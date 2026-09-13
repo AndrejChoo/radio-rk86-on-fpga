@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1NR-9C" package="QFN88P" speed="6" partNumber="GW1NR-LV9QN88PC6/I5"/>
+    <FileList>
+        <File path="D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\gowin_ddr\gowin_ddr.v" type="verilog"/>
+        <File path="D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\gowin_dpb\vram.v" type="verilog"/>
+        <File path="D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\gowin_prom\zrom.v" type="verilog"/>
+        <File path="D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\gowin_rpll\hdmi_rpll.v" type="verilog"/>
+        <File path="D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\gowin_rpll\main_rpll.v" type="verilog"/>
+        <File path="D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\hdmi.v" type="verilog"/>
+        <File path="D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\i8080\vm80a.v" type="verilog"/>
+        <File path="D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\programmer.v" type="verilog"/>
+        <File path="D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\rk86.v" type="verilog"/>
+        <File path="D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\spi.v" type="verilog"/>
+        <File path="D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\vg75.v" type="verilog"/>
+        <File path="D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\keyboard.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="global_freq" value="50.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="D:\Projects\GOWIN_Projects\Radio-RK86\rk86\impl\gwsynthesis\rk86.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="top_module" value="rk86"/>
+        <Option type="vcc" value="1.2"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

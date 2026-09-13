@@ -1,0 +1,23 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC6/I5">gw1nr9c-004</Device>
+    <FileList>
+        <File path="src/gowin_ddr/gowin_ddr.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_dpb/vram.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_prom/zrom.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_rpll/hdmi_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_rpll/main_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi.v" type="file.verilog" enable="1"/>
+        <File path="src/i8080/vm80a.v" type="file.verilog" enable="1"/>
+        <File path="src/keyboard.v" type="file.verilog" enable="1"/>
+        <File path="src/programmer.v" type="file.verilog" enable="1"/>
+        <File path="src/rk86.v" type="file.verilog" enable="1"/>
+        <File path="src/spi.v" type="file.verilog" enable="1"/>
+        <File path="src/vg75.v" type="file.verilog" enable="1"/>
+        <File path="src/rk86.cst" type="file.cst" enable="1"/>
+        <File path="src/gowin_ddr/gowin_ddr.ipc" type="file.other" enable="1"/>
+    </FileList>
+</Project>

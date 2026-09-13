@@ -1,0 +1,39 @@
+Reading netlist file: "D:\Projects\GOWIN_Projects\Radio-RK86\rk86\impl\gwsynthesis\rk86.vg"
+Parsing netlist file "D:\Projects\GOWIN_Projects\Radio-RK86\rk86\impl\gwsynthesis\rk86.vg" completed
+Processing netlist completed
+Reading constraint file: "D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\rk86.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+WARN  (TA1132) :  'CPU_ADD[11]' was determined to be a clock but was not created.
+WARN  (TA1132) :  'n88_3' was determined to be a clock but was not created.
+WARN  (TA1132) :  'n92_3' was determined to be a clock but was not created.
+WARN  (TA1132) :  'n56_8' was determined to be a clock but was not created.
+WARN  (TA1132) :  'hdiv' was determined to be a clock but was not created.
+WARN  (TA1132) :  'mvc/VR_WCLK' was determined to be a clock but was not created.
+WARN  (TA1132) :  'mvc/vclk' was determined to be a clock but was not created.
+WARN  (TA1132) :  'mvc/zclk' was determined to be a clock but was not created.
+WARN  (TA1132) :  'mpg/spi_start' was determined to be a clock but was not created.
+WARN  (TA1132) :  'mkb/TRIG_ARR' was determined to be a clock but was not created.
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "D:\Projects\GOWIN_Projects\Radio-RK86\rk86\impl\pnr\rk86.power.html" completed
+Generate file "D:\Projects\GOWIN_Projects\Radio-RK86\rk86\impl\pnr\rk86.pin.html" completed
+Generate file "D:\Projects\GOWIN_Projects\Radio-RK86\rk86\impl\pnr\rk86.rpt.html" completed
+Generate file "D:\Projects\GOWIN_Projects\Radio-RK86\rk86\impl\pnr\rk86.rpt.txt" completed
+Generate file "D:\Projects\GOWIN_Projects\Radio-RK86\rk86\impl\pnr\rk86.tr.html" completed
+Sun Sep 13 13:59:33 2026
+

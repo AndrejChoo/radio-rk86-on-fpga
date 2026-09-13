@@ -1,0 +1,164 @@
+[
+ {
+  "InstFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/i8080/vm80a.v",
+  "InstLine" : 11,
+  "InstName" : "vm80a",
+  "ModuleFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/i8080/vm80a.v",
+  "ModuleLine" : 11,
+  "ModuleName" : "vm80a",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/i8080/vm80a.v",
+    "InstLine" : 45,
+    "InstName" : "core",
+    "ModuleFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/i8080/vm80a.v",
+    "ModuleLine" : 68,
+    "ModuleName" : "vm80a_core"
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/rk86.v",
+  "InstLine" : 1,
+  "InstName" : "rk86",
+  "ModuleFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/rk86.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "rk86",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/rk86.v",
+    "InstLine" : 38,
+    "InstName" : "mpl",
+    "ModuleFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/gowin_rpll/main_rpll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "main_pll"
+   },
+   {
+    "InstFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/rk86.v",
+    "InstLine" : 40,
+    "InstName" : "hpll",
+    "ModuleFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/gowin_rpll/hdmi_rpll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "hdmi_pll"
+   },
+   {
+    "InstFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/rk86.v",
+    "InstLine" : 62,
+    "InstName" : "mcp",
+    "ModuleFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/i8080/vm80a.v",
+    "ModuleLine" : 68,
+    "ModuleName" : "vm80a_core"
+   },
+   {
+    "InstFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/rk86.v",
+    "InstLine" : 98,
+    "InstName" : "mvc",
+    "ModuleFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/vg75.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "vg75",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/vg75.v",
+      "InstLine" : 23,
+      "InstName" : "mhd",
+      "ModuleFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/hdmi.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "hdmi",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/hdmi.v",
+        "InstLine" : 142,
+        "InstName" : "encode_R",
+        "ModuleFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/hdmi.v",
+        "ModuleLine" : 258,
+        "ModuleName" : "TMDS_encoder"
+       },
+       {
+        "InstFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/hdmi.v",
+        "InstLine" : 143,
+        "InstName" : "encode_G",
+        "ModuleFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/hdmi.v",
+        "ModuleLine" : 258,
+        "ModuleName" : "TMDS_encoder"
+       },
+       {
+        "InstFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/hdmi.v",
+        "InstLine" : 144,
+        "InstName" : "encode_B",
+        "ModuleFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/hdmi.v",
+        "ModuleLine" : 258,
+        "ModuleName" : "TMDS_encoder"
+       },
+       {
+        "InstFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/hdmi.v",
+        "InstLine" : 174,
+        "InstName" : "adr",
+        "ModuleFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/gowin_ddr/gowin_ddr.v",
+        "ModuleLine" : 9,
+        "ModuleName" : "DDIO"
+       },
+       {
+        "InstFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/hdmi.v",
+        "InstLine" : 180,
+        "InstName" : "adg",
+        "ModuleFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/gowin_ddr/gowin_ddr.v",
+        "ModuleLine" : 9,
+        "ModuleName" : "DDIO"
+       },
+       {
+        "InstFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/hdmi.v",
+        "InstLine" : 186,
+        "InstName" : "adb",
+        "ModuleFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/gowin_ddr/gowin_ddr.v",
+        "ModuleLine" : 9,
+        "ModuleName" : "DDIO"
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/vg75.v",
+      "InstLine" : 35,
+      "InstName" : "mvr",
+      "ModuleFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/gowin_dpb/vram.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "vram"
+     },
+     {
+      "InstFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/vg75.v",
+      "InstLine" : 57,
+      "InstName" : "zng",
+      "ModuleFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/gowin_prom/zrom.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "zrom"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/rk86.v",
+    "InstLine" : 116,
+    "InstName" : "mpg",
+    "ModuleFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/programmer.v",
+    "ModuleLine" : 6,
+    "ModuleName" : "programmer",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/programmer.v",
+      "InstLine" : 30,
+      "InstName" : "msp",
+      "ModuleFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/spi.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "spi"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/rk86.v",
+    "InstLine" : 167,
+    "InstName" : "mkb",
+    "ModuleFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/keyboard.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "keyboard"
+   }
+  ]
+ }
+]

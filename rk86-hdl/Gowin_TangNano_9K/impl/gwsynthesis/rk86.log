@@ -1,0 +1,85 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\gowin_ddr\gowin_ddr.v'
+Analyzing Verilog file 'D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\gowin_dpb\vram.v'
+Analyzing Verilog file 'D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\gowin_prom\zrom.v'
+Analyzing Verilog file 'D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\gowin_rpll\hdmi_rpll.v'
+Analyzing Verilog file 'D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\gowin_rpll\main_rpll.v'
+Analyzing Verilog file 'D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\hdmi.v'
+Analyzing Verilog file 'D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\i8080\vm80a.v'
+Analyzing Verilog file 'D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\programmer.v'
+Analyzing Verilog file 'D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\rk86.v'
+Undeclared symbol 'ER_BH', assumed default net type 'wire'("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\rk86.v":158)
+Undeclared symbol 'ER_BL', assumed default net type 'wire'("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\rk86.v":159)
+Analyzing Verilog file 'D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\spi.v'
+Analyzing Verilog file 'D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\vg75.v'
+Analyzing Verilog file 'D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\keyboard.v'
+WARN  (EX3073) : Port 'pin_aena' remains unconnected for this instance("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\rk86.v":79)
+WARN  (EX3073) : Port 'LED' remains unconnected for this instance("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\rk86.v":168)
+Compiling module 'rk86'("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\rk86.v":1)
+Compiling module 'main_pll'("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\gowin_rpll\main_rpll.v":10)
+Compiling module 'hdmi_pll'("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\gowin_rpll\hdmi_rpll.v":10)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\rk86.v":44)
+WARN  (EX3791) : Expression size 2 truncated to fit in target size 1("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\rk86.v":47)
+Compiling module 'vm80a_core'("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\i8080\vm80a.v":68)
+WARN  (EX3073) : Port 'vs' remains unconnected for this instance("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\vg75.v":25)
+WARN  (EX3073) : Port 'douta' remains unconnected for this instance("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\vg75.v":50)
+Compiling module 'vg75'("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\vg75.v":1)
+Compiling module 'hdmi'("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\hdmi.v":1)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 11("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\hdmi.v":119)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 11("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\hdmi.v":126)
+Compiling module 'TMDS_encoder'("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\hdmi.v":258)
+Compiling module 'DDIO'("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\gowin_ddr\gowin_ddr.v":9)
+Compiling module 'vram'("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\gowin_dpb\vram.v":10)
+Compiling module 'zrom'("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\gowin_prom\zrom.v":10)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 11("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\vg75.v":80)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 11("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\vg75.v":81)
+WARN  (EX3791) : Expression size 15 truncated to fit in target size 11("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\vg75.v":82)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\vg75.v":148)
+WARN  (EX2565) : Input 'dinb[7]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\vg75.v":50)
+WARN  (EX2565) : Input 'dinb[6]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\vg75.v":50)
+WARN  (EX2565) : Input 'dinb[5]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\vg75.v":50)
+WARN  (EX2565) : Input 'dinb[4]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\vg75.v":50)
+WARN  (EX2565) : Input 'dinb[3]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\vg75.v":50)
+WARN  (EX2565) : Input 'dinb[2]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\vg75.v":50)
+WARN  (EX2565) : Input 'dinb[1]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\vg75.v":50)
+WARN  (EX2565) : Input 'dinb[0]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\vg75.v":50)
+Compiling module 'programmer'("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\programmer.v":6)
+Compiling module 'spi'("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\spi.v":1)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\spi.v":39)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\spi.v":77)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\programmer.v":60)
+WARN  (EX3791) : Expression size 20 truncated to fit in target size 19("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\programmer.v":121)
+Compiling module 'keyboard'("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\keyboard.v":1)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\keyboard.v":45)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\keyboard.v":57)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\keyboard.v":71)
+NOTE  (EX0101) : Current top module is "rk86"
+WARN  (EX0211) : The output port "LED" of module "keyboard" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\keyboard.v":9)
+WARN  (EX0211) : The output port "SC[7]" of module "keyboard" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\keyboard.v":10)
+WARN  (EX0211) : The output port "SC[6]" of module "keyboard" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\keyboard.v":10)
+WARN  (EX0211) : The output port "SC[5]" of module "keyboard" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\keyboard.v":10)
+WARN  (EX0211) : The output port "SC[4]" of module "keyboard" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\keyboard.v":10)
+WARN  (EX0211) : The output port "SC[3]" of module "keyboard" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\keyboard.v":10)
+WARN  (EX0211) : The output port "SC[2]" of module "keyboard" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\keyboard.v":10)
+WARN  (EX0211) : The output port "SC[1]" of module "keyboard" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\keyboard.v":10)
+WARN  (EX0211) : The output port "SC[0]" of module "keyboard" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Projects\GOWIN_Projects\Radio-RK86\rk86\src\keyboard.v":10)
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\Projects\GOWIN_Projects\Radio-RK86\rk86\impl\gwsynthesis\rk86.vg" completed
+[100%] Generate report file "D:\Projects\GOWIN_Projects\Radio-RK86\rk86\impl\gwsynthesis\rk86_syn.rpt.html" completed
+GowinSynthesis finish

@@ -1,0 +1,61 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/gowin_ddr/gowin_ddr.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/gowin_dpb/vram.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/gowin_prom/zrom.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/gowin_rpll/hdmi_rpll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/gowin_rpll/main_rpll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/hdmi.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/i8080/vm80a.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/programmer.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/rk86.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/spi.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/vg75.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/src/keyboard.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/Projects/GOWIN_Projects/Radio-RK86/rk86/impl/temp/rtl_parser.result",
+ "Top" : "rk86",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}
